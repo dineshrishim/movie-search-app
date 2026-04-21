@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
 
-st.title("BROOOOOO Dis da Movie Search App")
+st.title("Movie Search App")
 
-movie = st.text_input("Enter da movie name:")
+movie = st.text_input("Enter Any movie name:")
 
 if movie:
     api_key = "7fa6ccf5"
